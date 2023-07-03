@@ -1,0 +1,12 @@
+{
+  "version": 4,
+  "allow_publish": false,
+  "name": "challenge_page",
+  "build_dependencies": [],
+  "build": {
+    "type": "docker-build",
+    "src_dir": ".",
+    "files": ["**/*"]
+  },
+  "base_image": "debian:bookworm"
+}
